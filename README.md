@@ -46,6 +46,57 @@ The dataset contains layoff information with the following columns:
 ## 🔧 Data Cleaning Process
 
 ### 1. Duplicate Removal
-```sql
--- Identified and removed duplicate records using ROW_NUMBER()
--- Removed 4 duplicate entries
+
+- Identified and removed duplicate records using ROW_NUMBER()
+- Removed 4 duplicate entries
+
+### 2. Standardization
+
+- Company Names: Trimmed whitespace
+- Industry Names: Standardized crypto-related industries ("Crypto", "CryptoCurrency", "Crypto Currency" → "Crypto")
+- Country Names: Fixed "United States." to "United States"
+- Date Format: Converted from text to proper DATE format
+
+### 3. Missing Value Handling
+
+- Filled missing industry data using company matching
+- Removed records with no layoff information (both total_laid_off and percentage_laid_off null)
+
+### 4. Data Validation
+
+- Ensured data consistency across all fields
+- Validated date ranges and numeric values
+
+# Major Findings
+
+## 🚨 Critical Insights
+
+### Tech Giants Dominated Layoffs
+- **Amazon**: 21,150 employees
+- **Google**: 19,310 employees  
+- **Meta**: 17,500 employees
+- **Salesforce**: 9,905 employees
+
+### Consumer Sector Hit Hardest
+- **Consumer**: 45,984 layoffs
+- **Retail**: 43,894 layoffs
+- Significant impact beyond tech sector
+
+### Geographic Concentration
+- **SF Bay Area**: 51,651 layoffs
+- **Seattle**: 25,159 layoffs
+- Traditional tech hubs disproportionately affected
+
+### Temporal Peaks
+- **January 2023**: 84,919 layoffs (worst month)
+- **November 2022**: 53,679 layoffs
+- Year-start appears to be peak restructuring period
+
+### Accelerating Trend
+- **2023 Q1**: 150,000+ layoffs
+- Concerning acceleration pattern observed
+
+
+
+
+
