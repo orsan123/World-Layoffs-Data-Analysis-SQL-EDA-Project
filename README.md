@@ -20,13 +20,12 @@ world-layoffs-analysis/
 │   └── world_layoffs.layoffs
 │
 ├── sql/
-│   └── layoffs_analysis.sql
+│   └── Layoffs_init_data_exploration_pt1.sql
+    └── Layoffs_data_cleaning_and_standardization_pt2.sql
+    └── Layoffs_exploratory_data_analysis_pt3.sql
 │
-├── documentation/
-│   └── README.md
-│
-└── insights/
-    └── key_findings_summary.md
+│── README.md
+
 ```
 
 ## 🛠️ Technical Stack
