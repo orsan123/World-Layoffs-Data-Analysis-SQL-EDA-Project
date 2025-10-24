@@ -13,6 +13,7 @@ Understanding the patterns and drivers behind global layoffs to identify:
 
 ## 📁 Project Structure
 
+world-layoffs-analysis/
 │
 ├── data/
 │ └── world_layoffs.layoffs (original dataset)
@@ -72,24 +73,24 @@ The dataset contains layoff information with the following columns:
 ## 🚨 Critical Insights
 
 ### Tech Giants Dominated Layoffs
-- **Amazon**: 21,150 employees
-- **Google**: 19,310 employees  
-- **Meta**: 17,500 employees
-- **Salesforce**: 9,905 employees
+- **Amazon**: 18,150 employees
+- **Google**: 12000 employees  
+- **Meta**: 11,000 employees
+- **Salesforce**:10,090 employees
 
 ### Consumer Sector Hit Hardest
-- **Consumer**: 45,984 layoffs
-- **Retail**: 43,894 layoffs
+- **Consumer**: 45,182 layoffs
+- **Retail**: 43,613 layoffs
 - Significant impact beyond tech sector
 
 ### Geographic Concentration
-- **SF Bay Area**: 51,651 layoffs
-- **Seattle**: 25,159 layoffs
+- **SF Bay Area**: 125,631 layoffs
+- **Seattle**: 34,743 layoffs
 - Traditional tech hubs disproportionately affected
 
 ### Temporal Peaks
-- **January 2023**: 84,919 layoffs (worst month)
-- **November 2022**: 53,679 layoffs
+- **January 2023**: 84,714 layoffs (worst month)
+- **November 2022**: 53,451 layoffs
 - Year-start appears to be peak restructuring period
 
 ### Accelerating Trend
