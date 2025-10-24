@@ -70,9 +70,9 @@ The dataset contains layoff information with the following columns:
 - Ensured data consistency across all fields
 - Validated date ranges and numeric values
 
-# Major Findings
+## Major Findings
 
-## 🚨 Critical Insights
+### 🚨 Critical Insights
 
 ### Tech Giants Dominated Layoffs
 - **Amazon**: 18,150 employees
