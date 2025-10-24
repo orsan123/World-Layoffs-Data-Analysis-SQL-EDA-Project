@@ -13,19 +13,21 @@ Understanding the patterns and drivers behind global layoffs to identify:
 
 ## 📁 Project Structure
 
+```
 world-layoffs-analysis/
 │
 ├── data/
-│ └── world_layoffs.layoffs (original dataset)
+│   └── world_layoffs.layoffs
 │
 ├── sql/
-│ └── layoffs_analysis.sql (complete analysis script)
+│   └── layoffs_analysis.sql
 │
 ├── documentation/
-│ └── README.md (this file)
+│   └── README.md
 │
 └── insights/
-└── key_findings_summary.md
+    └── key_findings_summary.md
+```
 
 ## 🛠️ Technical Stack
 - **Database**: MySQL
